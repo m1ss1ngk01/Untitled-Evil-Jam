@@ -13,7 +13,9 @@ public class DamageTaker : MonoBehaviour
     {
         if (health <= 0.0f)
         {
+            EnemyMover.ZombiesKilled = EnemyMover.ZombiesKilled + 1;
             Destroy(gameObject);
+            Debug.Log("Enemies Killed: " + EnemyMover.ZombiesKilled);
         }
     }
 }

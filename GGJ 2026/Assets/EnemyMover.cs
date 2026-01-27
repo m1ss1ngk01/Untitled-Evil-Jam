@@ -4,6 +4,7 @@ public class EnemyMover : MonoBehaviour
 {
     public PlayerPosition guyIWantToKill;
     public float speed = 1.0f;
+    public static int ZombiesKilled = 0;
     
     // Update is called once per frame
     void Update()
