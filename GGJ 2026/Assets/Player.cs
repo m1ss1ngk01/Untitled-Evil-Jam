@@ -1,12 +1,18 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
+    public float health = 10.0f;
+    public UnityEvent<float, float> OnHealthChange;
+    public UnityEvent OnPlayerDeath;
     [SerializeField] private float _walkspeed;
     [SerializeField] private float _runspeed;
 
     private Rigidbody2D _rigidbody;
+    public PlayerPosition myPlayerPosition;
+    public float damageBounceBack;
 
     
     
@@ -14,6 +20,7 @@ public class Player : MonoBehaviour
     public void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        //Bro I hate this stupid Game Jam :man_standing: <--- Yes ik there's no emojis
     }
 
     public void Update()
@@ -28,7 +35,8 @@ public class Player : MonoBehaviour
         {
             force = normalizedMovementVector * _runspeed;
         }
-        _rigidbody.linearVelocity = force;
+        _rigidbody.linearVelocity = Vector2.Lerp(_rigidbody.linearVelocity, force, 0.9f * Time.deltaTime);
+        myPlayerPosition.position = transform.position;
     }
 
 
@@ -67,6 +75,22 @@ public class Player : MonoBehaviour
             Vector2 force = normalizedMovementVector * _walkspeed;
             
             _rigidbody.AddForce(force);
+        }
+    }
+
+    public void Damage(Vector3 source)
+    {
+        var velocity = _rigidbody.linearVelocity;
+        Vector2 angle = (source - transform.position).normalized;
+        _rigidbody.linearVelocity = velocity - angle * damageBounceBack;
+
+        health -= 1.0f;
+        OnHealthChange.Invoke(health + 1.0f, health);
+        if (health <= 0.0f)
+        {
+            Destroy(gameObject);
+            OnPlayerDeath.Invoke();
+            // show game over scene :(
         }
     }
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class weapon : MonoBehaviour
+public class WeaponAimer : MonoBehaviour
 {
     public Camera cam;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -20,8 +20,5 @@ public class weapon : MonoBehaviour
         float angle = Vector2.SignedAngle(Vector2.up, differenceVector);
 
         transform.rotation = Quaternion.Euler(0, 0, angle);
-
-
-        
     }
 }
