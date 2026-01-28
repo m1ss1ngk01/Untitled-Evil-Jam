@@ -5,16 +5,22 @@ public class DamageHitbox : MonoBehaviour
 {
     private List<GameObject> others = new();
 
+    public Player Player;
+
     public void Danage()
     {
         Debug.Log("Do Danage");
         foreach (GameObject other in others)
         {
-            // This is bad, but we don't care because it's a game jam!!
-            if (other == null) continue;
-            if (other.TryGetComponent(out DamageTaker damageTaker))
+            if (other != null)
             {
-                damageTaker.DoDamage();
+                // This is bad, but we don't care because it's a game jam!!
+                DamageTaker damageTaker = other.GetComponent<DamageTaker>();
+                if (damageTaker != null)
+                {
+                    damageTaker.DoDamage(Player);
+                    break;
+                }
             }
         }
     }
