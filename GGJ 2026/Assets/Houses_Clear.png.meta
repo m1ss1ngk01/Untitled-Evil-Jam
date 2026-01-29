@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: fcd68ee5ba932b745803c6e7ff9e0f4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1116755788844724333
+    second: Houses_Clear_0
+  - first:
+      213: 4756284335835464629
+    second: Houses_Clear_1
+  - first:
+      213: 7906543830652823388
+    second: Houses_Clear_2
+  - first:
+      213: -9137940764055454062
+    second: Houses_Clear_3
+  - first:
+      213: 241700882523062640
+    second: Houses_Clear_4
+  - first:
+      213: -805188318923827564
+    second: Houses_Clear_5
+  - first:
+      213: -8039321216191033797
+    second: Houses_Clear_6
+  - first:
+      213: 3144085586895309636
+    second: Houses_Clear_7
+  - first:
+      213: 5566097368656703632
+    second: Houses_Clear_8
+  - first:
+      213: 8909964031703583773
+    second: Houses_Clear_9
+  - first:
+      213: 6240253081075923117
+    second: Houses_Clear_10
+  - first:
+      213: 457520094830720040
+    second: Houses_Clear_11
+  - first:
+      213: -7214868362325439208
+    second: Houses_Clear_12
+  - first:
+      213: -3362887972213177251
+    second: Houses_Clear_13
+  - first:
+      213: 6313760851571943611
+    second: Houses_Clear_14
+  - first:
+      213: 2059512681815098117
+    second: Houses_Clear_15
+  - first:
+      213: 7789214759566342556
+    second: Houses_Clear_16
+  - first:
+      213: 5087602521145553410
+    second: Houses_Clear_17
+  - first:
+      213: 6411144863122289799
+    second: Houses_Clear_18
+  - first:
+      213: 469806174412484321
+    second: Houses_Clear_19
+  - first:
+      213: -1926929957553273493
+    second: Houses_Clear_20
+  - first:
+      213: 7902050771470595444
+    second: Houses_Clear_21
+  - first:
+      213: -9191459320602415596
+    second: Houses_Clear_22
+  - first:
+      213: -5324226398797569184
+    second: Houses_Clear_23
+  - first:
+      213: 7876229289318672099
+    second: Houses_Clear_24
+  - first:
+      213: 8101084465235096118
+    second: Houses_Clear_25
+  - first:
+      213: -7831115290972838208
+    second: Houses_Clear_26
+  - first:
+      213: -726449152371591603
+    second: Houses_Clear_27
+  - first:
+      213: -4206431144060495333
+    second: Houses_Clear_28
+  - first:
+      213: -398672636104361629
+    second: Houses_Clear_29
+  - first:
+      213: -2840599885611682941
+    second: Houses_Clear_30
+  - first:
+      213: -2234743147657791378
+    second: Houses_Clear_31
+  - first:
+      213: 534507643979236806
+    second: Houses_Clear_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Houses_Clear_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3346
+        height: 2263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f8c01e68c7080f0800000000000000
+      internalID: -1116755788844724333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6fa9d4544523293459a8a7b8f9054303
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Houses_Clear_0: -1116755788844724333
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

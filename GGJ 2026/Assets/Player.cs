@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
     public PlayerPosition myPlayerPosition;
     public float damageBounceBack;
 
+    private int ZombieCount = 0;
+
     
     
     
@@ -29,6 +31,9 @@ public class Player : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         //Bro I hate this stupid Game Jam :man_standing: <--- Yes ik there's no emojis
+
+        EnemyMover[] movers = FindObjectsByType<EnemyMover>(FindObjectsSortMode.None);
+        ZombieCount = movers.Length;
     }
 
     public void Update()
@@ -129,7 +134,7 @@ public class Player : MonoBehaviour
     {
         ZombiesKilled += score;
         Debug.Log("Enemies Killed: " + ZombiesKilled + " out of: " + EnemyMover.ZombieCount);
-        if (ZombiesKilled == 20)
+        if (ZombiesKilled == 2)
         {
             OnGameBeat.Invoke();
         }
