@@ -31,7 +31,7 @@ public class EnemyMover : MonoBehaviour
         _rigidbody.linearVelocity = velocity;
 
         if (_rigidbody.linearVelocity.y > 0.1 && Mathf.Abs(_rigidbody.linearVelocity.y) > Mathf.Abs(_rigidbody.linearVelocity.x)) _animator.SetInteger("Animation", 0);
-        else if (_rigidbody.linearVelocity.y < -0.1 && Mathf.Abs(_rigidbody.linearVelocity.y) > Mathf.Abs(_rigidbody.linearVelocity.x)) _animator.SetInteger("Animation", 1);
+        else if (_rigidbody.linearVelocity.y < -0.1 && Mathf.Abs(_rigidbody.linearVelocity.y) > Mathf.Abs(_rigidbody.linearVelocity.x)) _animator.SetInteger("Animation", 2);
         else if (_rigidbody.linearVelocity.x > 0.1) _animator.SetInteger("Animation", 3);
         else if (_rigidbody.linearVelocity.x < -0.1) _animator.SetInteger("Animation", 1);
 
