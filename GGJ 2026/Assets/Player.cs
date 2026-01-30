@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
 
     public UnityEvent<float, float> OnHealthChange;
     public UnityEvent OnPlayerDeath; //What happens when u die
-    public UnityEvent OnGameBeat; //literally useless rn bro.. 
+    public UnityEvent OnGameBeat; //Has a use now!!! 
     [SerializeField] private float _walkspeed;
     [SerializeField] private float _runspeed;
 
@@ -134,7 +134,7 @@ public class Player : MonoBehaviour
     {
         ZombiesKilled += score;
         Debug.Log("Enemies Killed: " + ZombiesKilled + " out of: " + EnemyMover.ZombieCount);
-        if (ZombiesKilled == 2)
+        if (ZombiesKilled == 20)
         {
             OnGameBeat.Invoke();
         }
